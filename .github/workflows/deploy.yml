@@ -29,4 +29,4 @@ jobs:
 
     - name: Trigger Render deploy hook
       run: |
-        curl -X POST https://api.render.com/deploy/srv-d13ajgp5pdvs73dh94kg?key=NmnNhQ7TT-k
+        curl -X POST https://api.render.com/deploy/srv-d2fdna8gjchc73fgr360?key=7Sbo3g0iW-M
