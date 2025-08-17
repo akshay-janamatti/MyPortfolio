@@ -1,10 +1,10 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const HERO_CONTENT = `I am a passionate developer with a knack for crafting robust and scalable embedded & iot applications. I have honed my skills in embedded technologies . My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am an Electronics and Communication Engineering student passionate about Embedded Systems, IoT, and smart automation. I focus on creating intelligent solutions that connect hardware with software to solve real-world problems.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Java, Node.js, express.js,MySQL, and MongoDB. My journey in development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Skilled in Arduino, ESP32, C/C++, Python, and modern web technologies, I enjoy working on innovative ideas that blend electronics with software. I thrive on problem-solving, teamwork, and continuous learning to stay ahead in emerging technologies.`;
 
 export const EDUCATION = [
   {
@@ -29,21 +29,14 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
-    title: "Surakshit- Cloud Storage App",
+    title: "Smart Saline Monitoring System",
     image: project1,
     description:
-      "Surakshit is a secure, lightweight cloud storage web application built using Node.js, Express, and MongoDB. It allows users to register, log in using JWT-based authentication, and securely upload and download personal files.",
-    technologies: ["Node.js", "Express.js","JWT","bcrypt","multer","firebase"],
-    link: "https://github.com/anmol-janamatti/Surakshit",
+      "A smart IoT-based system designed to monitor saline levels in real time using weight sensors. It automatically alerts healthcare staff when the saline is about to finish, ensuring patient safety and reducing manual monitoring in hospitals.",
+    technologies: ["ESP32","Weight Sensor (Load Cell + HX711)","C/C++","Blynk"],
+    link: "https://github.com/akshay-janamatti/smart-saline-monitor",
   },
-  {
-  title: "RealtimeChat - 1-on-1 Chat App",
-  image:project2,
-  description:
-    "RealtimeChat is a real-time 1-on-1 chat application built using React, Node.js, and Socket.io. It allows users to connect through a unique code system where incoming chat requests can be accepted or declined, ensuring privacy and consent. The UI is styled with Tailwind CSS and the app is deployed on Render.",
-  technologies: ["React", "Node.js", "Socket.io", "Tailwind CSS"],
-  link: "http://realtimechat-ivyb.onrender.com/",
-},
+  
 
 
 ];

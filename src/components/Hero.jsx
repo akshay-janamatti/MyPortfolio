@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/akshayProfile.jpg';
+import { HERO_CONTENT,ABOUT_TEXT } from '../constants';
+import profilePic from '../assets/akshayport.jpg';
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
@@ -13,7 +13,7 @@ const container = (delay) => ({
 })
 
 const Hero = () => {
-  const titles = ['Software Engineer', 'Full Stack Developer','backend developer','ML Enthusiast','cloud Architect','DevOps Engineer'];
+  const titles = ['Embedded Systems Developer', ' IoT Engineer','Full Stack Developer','Cloud & DevOps Enthusiast','AI/ML Explorer','Electronics & Communication Engineer'];
   const [currentTitle, setCurrentTitle] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
@@ -75,6 +75,9 @@ const Hero = () => {
                     animate="visible"
                     className='my-1 max-w-xl py-6 font-light tracking-tighter'>
                     {HERO_CONTENT}
+                    <br />
+                    <br />
+                    {ABOUT_TEXT}
                   </motion.p>
               </div>
             </div>
@@ -86,7 +89,7 @@ const Hero = () => {
                   transition={{duration: 1, delay: 1.2}}
                   src={profilePic} 
                   className='rounded-2xl' 
-                  alt="Anmol Janamatti" />
+                  alt="Akshay Janamatti" />
               </div>
             </div>
         </div>
