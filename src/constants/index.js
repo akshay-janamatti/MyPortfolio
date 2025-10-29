@@ -36,15 +36,7 @@ export const PROJECTS = [
     technologies: ["ESP32","Weight Sensor (Load Cell + HX711)","C/C++","Blynk"],
     link: "https://github.com/akshay-janamatti/smart-saline-monitor",
   },
-  {
-
-    title: "Smart Home Automation System",
-    image: project2,
-    description:
-      "An IoT-based home automation system that allows users to control home appliances remotely using a mobile app. It integrates various sensors and actuators to automate tasks like lighting, temperature control, and security.",
-    technologies: ["ESP32", "Relay Module", "DHT11 Sensor", "Blynk"],
-    link: "https://www.klccal.edu.in/nsp_scholarship.php",
-  }
+  
 
 
 ];
