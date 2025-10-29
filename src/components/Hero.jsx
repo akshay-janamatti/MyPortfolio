@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { HERO_CONTENT,ABOUT_TEXT } from '../constants';
-import profilePic from '../assets/akshayport.jpg';
+import profilePic from '../assets/AkshayPort.jpg';
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
