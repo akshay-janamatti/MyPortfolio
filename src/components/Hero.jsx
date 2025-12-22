@@ -88,7 +88,7 @@ const Hero = () => {
                   animate={{x: 0, opacity: 1}}
                   transition={{duration: 1, delay: 1.2}}
                   src={profilePic} 
-                  className='rounded-2xl' 
+                  className='rounded-2xl w-72 h-72 object-cover' 
                   alt="Akshay Janamatti" />
               </div>
             </div>
