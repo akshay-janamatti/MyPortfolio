@@ -1,5 +1,6 @@
+import { title } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `I am an Electronics and Communication Engineering student passionate about Embedded Systems, IoT, and smart automation. I focus on creating intelligent solutions that connect hardware with software to solve real-world problems.`;
@@ -38,6 +39,14 @@ export const PROJECTS = [
   },
   
 
+  {
+    title: "AOI-Based 4-Bit Logic Unit Using Artix-7 FPGA",
+    image: project2,
+    description:
+    "Designed and implemented a 4-bit combinational Logic Unit based on the AOI (AND–OR–INVERTER) methodology using structural Verilog HDL on an Artix-7 (Nexys A7) FPGA. The system supports AND, OR, NAND, and NOR operations with button-based operation selection, emphasizing gate-level design and efficient FPGA hardware realization.",
+    technologies:["Verilog", "FPGA", "Artix-7","Vivado","AOI"],
+    link: "https://github.com/akshay-janamatti/4bit-Logic-Unit-AOI-Artix7"
+  }
 
 ];
 
